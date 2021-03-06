@@ -1,0 +1,23 @@
+{
+  "name": "VendingMachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cardSlot.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammad-khamaiseh-2/SnackMachine-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammad-khamaiseh-2/SnackMachine-/issues"
+  },
+  "homepage": "https://github.com/mohammad-khamaiseh-2/SnackMachine-#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

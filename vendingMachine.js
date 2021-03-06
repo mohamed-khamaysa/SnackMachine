@@ -14,8 +14,10 @@ class VendingMachine {
   setup(items) {
     if (this.checkMachineCapacity(items)) {
       this.items = [...items];
+      return true;
     } else {
       console.log("VM can't handle this num of snacks");
+      return false;
     }
   }
 
@@ -115,3 +117,5 @@ snackVendingMachine.setup(items);
 
 // display price for 101 snack item
 snackVendingMachine.checkItem(101);
+
+module.exports = snackVendingMachine;
